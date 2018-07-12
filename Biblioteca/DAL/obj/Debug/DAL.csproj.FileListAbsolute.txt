@@ -1,0 +1,6 @@
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.dll.config
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.dll
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.pdb
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.dll
+C:\Users\esteb\Source\Repos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.pdb
