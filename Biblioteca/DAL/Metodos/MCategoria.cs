@@ -23,7 +23,7 @@ namespace DAL.Metodos
                 {
 
                     vlcQuery = string.Format("Insert Into Categoria (cat_codigo, cat_descripcion) Values({0},'{1}')", 
-                                                                    vloCategoria.cat_codigo, vloCategoria.car_descripcion);
+                                                                    vloCategoria.cat_codigo, vloCategoria.cat_descripcion);
 
                     vlnRegistrosAfectados = db.Execute(vlcQuery);
 

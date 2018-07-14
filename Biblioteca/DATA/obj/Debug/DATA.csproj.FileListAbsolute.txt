@@ -14,3 +14,10 @@ C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csp
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.dll
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.pdb
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\DATA.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\DATA.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache

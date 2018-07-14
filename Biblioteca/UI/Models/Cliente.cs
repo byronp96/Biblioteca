@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ServiceStack.DataAnnotations;
+using System.Web;
 
-namespace DATA
+namespace UI.Models
 {
     public class Cliente
     {
-        [AutoIncrement]
         public int cli_codigo { get; set; }
 
         public string cli_identificacion { get; set; }

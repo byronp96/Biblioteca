@@ -12,28 +12,35 @@ namespace DAL.Metodos
 {
     public class MCliente
     {                   
-        public bool InsertarCliente(Cliente cliente)
-        {                                        
-            StringBuilder consulta = new StringBuilder();
-            consulta.Append("INSERT INTO Cliente (cli_codigo,cli_identificacion,cli_nombre,cli_apellido,cli_correo,cli_fecha_nacimiento,cli_telefono,cli_clave) ");
-            consulta.Append(cliente.cli_codigo);
-            consulta.Append(cliente.cli_identificacion);
-            consulta.Append(cliente.cli_nombre);
-            consulta.Append(cliente.cli_apellido);
-            consulta.Append(cliente.cli_correo);
-            consulta.Append(cliente.cli_fecha_nacimiento);
-            consulta.Append(cliente.cli_telefono);
-            consulta.Append(cliente.cli_clave);
-            consulta.Append("Values (");
-            consulta.Append(")");
+        public bool Agregar(Cliente cliente)
+        {     
+            string vlcQuery = string.Format("Insert Into Cliente (cli_identificacion,cli_nombre,cli_apellido,cli_correo,cli_fecha_nacimiento,cli_telefono,cli_clave) Values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
+                                            cliente.cli_identificacion,
+                                            cliente.cli_nombre,
+                                            cliente.cli_apellido,
+                                            cliente.cli_correo,
+                                            cliente.cli_fecha_nacimiento,
+                                            cliente.cli_telefono,
+                                            cliente.cli_clave);
 
             using (IDbConnection db = new SqlConnection(BD.Default.conexion))
             {                                         
-                int vlnRegistrosAfectados = db.Execute(consulta.ToString());
+                int vlnRegistrosAfectados = db.Execute(vlcQuery);
 
                 if (vlnRegistrosAfectados >= 1) return true;
                 else return false;
             }    
+        }
+
+        public List<Cliente> Listar()
+        {                                                  
+            string vlcQuery = "select * from Cliente";
+
+            using (IDbConnection db = new SqlConnection(BD.Default.conexion))
+            {
+                return db.Query<Cliente>(vlcQuery).ToList();
+            }
+
         }
     }
 }
