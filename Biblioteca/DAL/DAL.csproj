@@ -47,18 +47,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD.Designer.cs" />
+    <Compile Include="BD1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>BD.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\MCategoria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="BD.settings" />
+    <None Include="BD.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BD1.Designer.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
     <Folder Include="bin\Release\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Metodos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATA\DATA.csproj">
+      <Project>{e4710938-cde4-41cd-806f-6639468791a3}</Project>
+      <Name>DATA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
