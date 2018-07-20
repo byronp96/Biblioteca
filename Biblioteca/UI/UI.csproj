@@ -47,8 +47,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoMapper, Version=7.0.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoMapper.7.0.1\lib\net45\AutoMapper.dll</HintPath>
+    <Reference Include="AutoMapper">
+      <HintPath>..\DLL\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -153,13 +153,18 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Mantenimientos\CategoriaController.cs" />
+    <Compile Include="Controllers\Mantenimientos\ClienteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Autor.cs" />
     <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Editorial.cs" />
     <Compile Include="Models\Libro.cs" />
+    <Compile Include="Models\Permiso.cs" />
+    <Compile Include="Models\Recargo.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -308,7 +313,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Categoria\Create.cshtml" />
     <Content Include="Views\Categoria\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Categoria\Edit.cshtml" />
+=======
+    <Content Include="Views\Cliente\Index.cshtml" />
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

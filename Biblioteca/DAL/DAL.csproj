@@ -53,6 +53,7 @@
       <DependentUpon>BD.settings</DependentUpon>
     </Compile>
     <Compile Include="Metodos\MCategoria.cs" />
+    <Compile Include="Metodos\MCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

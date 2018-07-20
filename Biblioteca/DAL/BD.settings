@@ -5,10 +5,17 @@
     <Setting Name="conexion" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+<<<<<<< HEAD
   &lt;ConnectionString&gt;Data Source=ATS22PC;Initial Catalog=Biblioteca;Integrated Security=True&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=ATS22PC;Initial Catalog=Biblioteca;Integrated Security=True</Value>
+=======
+  &lt;ConnectionString&gt;Data Source=DESKTOP-6Q5GDRN\THAMES;Initial Catalog=Biblioteca;User ID=esteban;Password=esteban&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-6Q5GDRN\THAMES;Initial Catalog=Biblioteca;User ID=esteban;Password=esteban</Value>
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2
     </Setting>
   </Settings>
 </SettingsFile>

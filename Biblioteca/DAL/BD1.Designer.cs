@@ -26,7 +26,12 @@ namespace DAL {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+<<<<<<< HEAD
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ATS22PC;Initial Catalog=Biblioteca;Integrated Security=True")]
+=======
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-6Q5GDRN\\THAMES;Initial Catalog=Biblioteca;User ID=esteban;Pas" +
+            "sword=esteban")]
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2
         public string conexion {
             get {
                 return ((string)(this["conexion"]));

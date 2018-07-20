@@ -17,6 +17,7 @@ C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.cspro
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.dll
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\obj\Debug\DAL.dll
@@ -31,3 +32,16 @@ C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\bin\Debug\DATA.pdb
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\bin\Debug\Dapper.xml
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\bin\Debug\ServiceStack.Interfaces.xml
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DAL\obj\Debug\DAL.csproj.CopyComplete
+=======
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.dll.config
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\DAL.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\Dapper.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\DATA.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\DATA.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\bin\Debug\Dapper.xml
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DAL\obj\Debug\DAL.pdb
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2

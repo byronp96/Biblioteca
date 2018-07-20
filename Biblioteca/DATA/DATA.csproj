@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="ServiceStack, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>..\packages\ServiceStack.5.0.2\lib\net45\ServiceStack.dll</HintPath>
     </Reference>
@@ -44,6 +45,10 @@
     </Reference>
     <Reference Include="ServiceStack.Text, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>..\packages\ServiceStack.Text.5.0.2\lib\net45\ServiceStack.Text.dll</HintPath>
+=======
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\DLL\ServiceStack.Interfaces.dll</HintPath>
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,9 +62,13 @@
   <ItemGroup>
     <Compile Include="Autor.cs" />
     <Compile Include="Categoria.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="Editorial.cs" />
     <Compile Include="Libro.cs" />
+    <Compile Include="Permiso.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recargo.cs" />
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

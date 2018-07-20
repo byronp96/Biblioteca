@@ -14,6 +14,7 @@ C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csp
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.dll
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.pdb
 C:\Users\byron\Documents\Proyectos\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\obj\Debug\DATA.pdb
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\bin\Debug\DATA.dll
@@ -30,3 +31,12 @@ C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\bin\Debug\ServiceSta
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\bin\Debug\ServiceStack.Text.xml
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\obj\Debug\DATA.csproj.CopyComplete
 C:\Users\bperez\Downloads\Biblioteca-master\Biblioteca\DATA\obj\Debug\DATA.dll
+=======
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\DATA.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\DATA.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.pdb
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\esteb\Documents\GitHub\Biblioteca\Biblioteca\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+>>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2

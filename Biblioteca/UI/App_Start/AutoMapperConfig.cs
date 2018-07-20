@@ -14,6 +14,9 @@ namespace UI
             {
                 cfg.CreateMap<Models.Categoria, DATA.Categoria>();
                 cfg.CreateMap<DATA.Categoria, Models.Categoria>();
+
+                cfg.CreateMap<Models.Cliente, DATA.Cliente>();
+                cfg.CreateMap<DATA.Cliente, Models.Cliente>();
             });
         }
     }
