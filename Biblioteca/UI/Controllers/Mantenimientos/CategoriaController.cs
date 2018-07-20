@@ -39,7 +39,7 @@ namespace UI.Controllers.Mantenimientos
         }
 
         // GET: Categoria/Create
-        public ActionResult Create()
+        public ActionResult vCreate()
         {
             return View();
         }
@@ -67,12 +67,16 @@ namespace UI.Controllers.Mantenimientos
         }
 
         // GET: Categoria/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult vEdit(int id=1)
         {
-            return View();
+            var vloCategoria = vloMCategoria.Buscar(id);
+            var _Categoria = Mapper.Map<Models.Categoria>(vloCategoria);
+         
+            
+            return PartialView("../../Views/Categoria/Edit", _Categoria);
         }
 
-        // POST: Categoria/Edit/5
+        //POST: Categoria/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {

@@ -60,6 +60,8 @@
     <link href="../assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="../assets/css/sb-admin.css" rel="stylesheet">
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -270,7 +272,7 @@
                 </li>
             </ul>
         </div>
-    </nav>    
+    </nav>
     <div class="content-wrapper">
         <div class="container-fluid" id="pnlPantallas">
             @RenderBody()
@@ -319,6 +321,10 @@
         <script src="assets/js/sb-admin-datatables.min.js"></script>
         <script src="assets/js/sb-admin-charts.min.js"></script>
     </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 
 </html>
@@ -330,7 +336,7 @@
 
         //Bloquea la pantalla
         //BloquearPantalla();
-        $("#pnlPantallas").html('');
+        
         //Realiza la llamada
         $.ajax({
             //pvcData, string pvbAgregar, string pvbBorrar, string pvbEditar, string pvbCopiar, string pvbImprimir, string pvbAyudar, bool pvbEsCreacion = false, bool pvbEsCopia = false)
@@ -341,13 +347,13 @@
                 //Desbloquea la pantalla
                 //DesbloquearPantalla();
                 //DEspliega el html
-              
+                $("#pnlPantallas").html('');
                 $("#pnlPantallas").html(partialResult);
-                alert('Success '+ partialResult)
+               
                 
             },
             complete: function (partialResult) {
-                $("#pnlPantallas").html(partialResult);
+               
                 
             },
             error: function () {

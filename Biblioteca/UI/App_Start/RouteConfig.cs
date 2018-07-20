@@ -21,8 +21,8 @@ namespace UI
 
             routes.MapRoute(
                name: "Categoria",
-               url: "{controller}/{action}/{id}",
-               defaults: new { controller = "Categoria", action = "Create", id = UrlParameter.Optional }
+               url: "{controller}/{action}/",
+               defaults: new { controller = "Categoria", action = "Edit" }
            );
         }
     }
