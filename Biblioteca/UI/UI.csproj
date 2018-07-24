@@ -313,11 +313,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Categoria\Create.cshtml" />
     <Content Include="Views\Categoria\Index.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Categoria\Edit.cshtml" />
-=======
-    <Content Include="Views\Cliente\Index.cshtml" />
->>>>>>> e36f8fe3dc79d5c6f354d34f1668cf98c656b8b2
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
